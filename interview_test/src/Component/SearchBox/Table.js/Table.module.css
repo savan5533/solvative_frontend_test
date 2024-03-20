@@ -1,0 +1,70 @@
+/* Table.module.css */
+
+.cityTable {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid rgb(222, 226, 230);
+  }
+  
+  .table th {
+    font-weight: 700;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  
+  .empty {
+    text-align: center;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .limitInput {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .limitInput label {
+    margin-right: 10px;
+  }
+  
+  .limitInput input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
